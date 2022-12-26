@@ -8,10 +8,10 @@ System.Console.WriteLine("Введите 5-ти значное число: ");
 string N = Console.ReadLine();
 if (N[0] == N[4])
 {
-    if (N[1] == N[3])
-    {
-        ;
-    }
-  System.Console.WriteLine("Число является полиндромом");
+    ;
+} 
+if (N[1] == N[3])
+{
+ Console.WriteLine("Число является полиндромом");
 }
-System.Console.WriteLine("Число не является полиндромом");
+else Console.WriteLine("Число не является полиндромом");
