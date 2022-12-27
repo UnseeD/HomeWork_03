@@ -6,11 +6,7 @@
 
 System.Console.WriteLine("Введите 5-ти значное число: ");
 string N = Console.ReadLine();
-if (N[0] == N[4])
-{
-    ;
-} 
-if (N[1] == N[3])
+if (N[0] == N[4] && N[1] == N[3])
 {
  Console.WriteLine("Число является полиндромом");
 }
